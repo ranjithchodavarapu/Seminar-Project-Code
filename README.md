@@ -32,7 +32,7 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 ### Detailed Code Execution 
 * Set up and import the libraries
 * Load Dataset and Prepare Model like ResNet18
-* Define Randomised Smoothing Function - The randomised_smoothing function certifies model robustness by adding noises like**(Laplace, Absolute Normal, Uniform, Bernoulli) distribution**
+* Define Randomised Smoothing Function - The randomised_smoothing function certifies model robustness by adding noises like **(Laplace, Absolute Normal, Uniform, Bernoulli) distribution**
 
 
 
