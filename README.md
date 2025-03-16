@@ -11,7 +11,7 @@
 
 
 ## Overview <a name="overview"></a>
-
+The paper "Machine Learning Needs Better Randomness Standards: Randomised Smoothing and PRNG-Based Attacks" discusses how randomness plays a vital role within ML algorithms, specifically regarding the robustness certification technique of randomised smoothing and its vulnerability to PRNG-based attacks. It also show how inadequate examination of PRNG quality in these algorithms produces security weaknesses that adversaries can exploit through PRNG-based attacks. The paper develops an evaluation framework to enhance randomness standards in ML applications by using cryptographically secure PRNGs (CSPRNGs) together with advanced statistical testing methods.
 
 
 ## Getting Started <a name="getting-started"></a>
