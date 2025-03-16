@@ -25,12 +25,14 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 ### Models Used <a name="models"></a>
 * **Model**: A pre-trained ResNet18 model is adapted for CIFAR-10 by modifying the final fully connected layer to output 10 classes.
 
-### Data link<a name="data"></a>
+### Data <a name="data"></a>
 * **Dataset**: CIFAR-10 dataset is used for training and evaluation.
 
 ## Instruction to Run<a name="instruction"></a>
 ### Detailed Code Execution 
-* 
+* Set up and import the libraries
+* Load Dataset and Prepare Model like ResNet18
+* Define Randomised Smoothing Function - The randomised_smoothing function certifies model robustness by adding noises like**(Laplace, Absolute Normal, Uniform, Bernoulli) distribution**
 
 
 
