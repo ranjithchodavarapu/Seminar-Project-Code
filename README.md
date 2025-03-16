@@ -36,7 +36,7 @@
 
 
 ## Sample Output <a name="sample"></a>
-![sample]
+
 
 
 
