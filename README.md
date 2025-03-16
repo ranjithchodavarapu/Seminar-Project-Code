@@ -11,14 +11,15 @@
 
 
 ## Overview <a name="overview"></a>
-Human eye has a lot of diseases, here we will using some classification techniques on fundas images and .we need to distinguish between fundus diseases such as glaucoma, myopia, DR1, and maculopathy and normal images.here we will be using grad Cam as it highlights the region with makes biological senses and then we also use some segmentation techniques in gluacoma images and segment the optic cup and optic disc.we will use canny and dilation to get the edge over the optic cup and optic disc.
+
 
 
 ## Getting Started <a name="getting-started"></a>
 
+
 ### Dependencies <a name="dependencies"></a>
 * Python 3.*
-* Libraries: NumPy, Sklearn, scipy,random, hashlib, Dieharder, TestU01, and nistrng.
+* Libraries: NumPy, Sklearn, scipy, random, hashlib, Dieharder, TestU01, and nistrng.
 * colab
 
 ### Models Used <a name="models"></a>
@@ -29,36 +30,13 @@ Human eye has a lot of diseases, here we will using some classification techniqu
 - 
 
 ## Instruction to Run<a name="instruction"></a>
-### fundus classification 
-* Download the data set from the link provide in data links and keep those data in the a folder where you will be executing yor project 
-* Import the required libraries for the code and preprocess the data 
-* Now train the model without fine-tuning and obtain the metrices 
-* Now train the model with fine-tuning and obtain the metrices 
-* Compare both the metrices to conclude with model work better
-* Create a Grad-Cam function to generate the heatmaps
-* Once the Heatmaps are generated test that on the testing images to final output that highlights the region with makes biological senses
-* Reference : All the code for classification will be avaliable in [Eye](https://github.com/ranjithchodavarapu/Edge-Detection-for-optic-cup-and-optic-disc-of-Gluacoma/tree/main/eye)
+### Detailed Code Execution 
+* 
 
-### Edge Detection 
-* Download the model from the link provide in data links and keep those data in the a folder where you will be executing yor project 
-* Import the required libraries for the code 
-* Create the function for obtaining accuracy and loss for the model 
-* Create the helper function to increase the brightness, hue, saturation, value and also code to shuffle instead of random shuffle
-* Now load the data from the folder where you saved it
-* Create a function for the segmentation model 
-* Now prepare the data for our model injection
-* Visualise  all the input data we have prepared 
-* Create train and test set by combining datasets
-* Preprocessing step for disc/ cup Segmentation and Perform CLAHE on each image
-* Visualise  all the CLAHE data image after preprocessing
-* create an helper function for callback and ReduceLROnPlateau
-* Compile the model and then train it
-* once training is done Visualise it on our dataset using canny and dilation for edge detection of cup and disc.
-* Reference: All the code for gluacoma segmentation using U-Net is avaliable in [gluacoma](https://github.com/ranjithchodavarapu/Edge-Detection-for-optic-cup-and-optic-disc-of-Gluacoma/tree/main/glucoma)
-* Reference: All the code for gluacoma segmentation using other models is avaliable in [cnn](https://github.com/ranjithchodavarapu/Edge-Detection-for-optic-cup-and-optic-disc-of-Gluacoma/tree/main/cnn)
+
 
 ## Sample Output <a name="sample"></a>
-![sample](https://github.com/ranjithchodavarapu/Edge-Detection-for-optic-cup-and-optic-disc-of-Gluacoma/blob/main/Images/output_cup.png)
+![sample]
 
 
-** accuracy may change for the files in the cnn folder 
+
