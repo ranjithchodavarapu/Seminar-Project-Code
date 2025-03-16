@@ -19,7 +19,7 @@
 
 ### Dependencies <a name="dependencies"></a>
 * Python 3.*
-* Libraries: NumPy, Sklearn, scipy, random, hashlib, Dieharder, TestU01, and nistrng.
+* Libraries: NumPy, Sklearn, scipy, random, hashlib, and nistrng.
 * colab
 
 ### Models Used <a name="models"></a>
