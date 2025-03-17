@@ -11,7 +11,7 @@
 
 
 ## Overview <a name="overview"></a>
-The paper "Machine Learning Needs Better Randomness Standards: Randomised Smoothing and PRNG-Based Attacks" discusses how randomness plays a vital role within ML algorithms, specifically regarding the robustness certification technique of randomised smoothing and its vulnerability to PRNG-based attacks. It also show how inadequate examination of PRNG quality in these algorithms produces security weaknesses that adversaries can exploit through PRNG-based attacks. The paper develops an evaluation framework to enhance randomness standards in ML applications by using cryptographically secure PRNGs (CSPRNGs) together with advanced statistical testing methods.
+The paper "Machine Learning Needs Better Randomness Standards: Randomised Smoothing and PRNG-Based Attacks" discusses how randomness plays a vital role within ML algorithms, specifically regarding the robustness certification technique of randomised smoothing and its vulnerability to PRNG-based attacks. It also shows how inadequate examination of PRNG quality in these algorithms produces security weaknesses that adversaries can exploit through PRNG-based attacks. The paper develops an evaluation framework to enhance randomness standards in ML applications by using cryptographically secure PRNGs (CSPRNGs) together with advanced statistical testing methods.
 
 
 ## Getting Started <a name="getting-started"></a>
@@ -32,7 +32,13 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 ### Detailed Code Execution 
 * Set up and import the libraries
 * Load Dataset and Prepare Model like ResNet18
-* Define Randomised Smoothing Function - The randomised_smoothing function certifies model robustness by adding noises like **(Laplace, Absolute Normal, Uniform, Bernoulli) distribution**
+* Define Randomised Smoothing Function - The randomised_smoothing function certifies model robustness by adding noises like **(Laplace, Absolute Normal, Uniform, Bernoulli)** distribution.
+* Define PRNG-Based Attack Functions - function simulates adversarial attacks using the generated noise and returns the attack success rate using  **(Negative Kurtosis Attack, Skewness Attack, Positive Kurtosis Attack)**.
+* Evaluate Randomness Quality - nist_test function evaluates randomness quality using the NIST SP800-22 test suite and shapiro_wilk_test function tests for normality in the randomness samples using the Shapiro-Wilk test
+* Certified Robustness Calculation - The certify_robustness function computes the average certified robustness radius for the entire test dataset using randomised smoothing.
+* Evaluate Model Performance - evaluate_model function evaluates the model's performance and robustness using **(Clean Accuracy, Certified Robustness, Attack Success Rates)**.
+* Main Execution - Train the Model, Evaluate Randomness Quality, Evaluate Model with Standard PRNG, and Evaluate Model with Cryptographic PRNG.
+* Return the output - Model Performance Metrics and Randomness Quality Results.
 
 
 
