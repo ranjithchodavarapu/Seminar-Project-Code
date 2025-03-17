@@ -40,7 +40,7 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 * Main Execution - Train the Model, Evaluate Randomness Quality, Evaluate Model with Standard PRNG, and Evaluate Model with Cryptographic PRNG.
 * Return the output - Model Performance Metrics and Randomness Quality Results.
 * How to run: git clone https://github.com/ranjithchodavarapu/Seminar-Project-Code.git
-              cd Seminar-Project-Code
+* cd Seminar-Project-Code - navigate into that directory.
   
 
 
