@@ -39,6 +39,9 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 * Evaluate Model Performance - evaluate_model function evaluates the model's performance and robustness using **(Clean Accuracy, Certified Robustness, Attack Success Rates)**.
 * Main Execution - Train the Model, Evaluate Randomness Quality, Evaluate Model with Standard PRNG, and Evaluate Model with Cryptographic PRNG.
 * Return the output - Model Performance Metrics and Randomness Quality Results.
+* How to run: git clone https://github.com/ranjithchodavarapu/Seminar-Project-Code.git
+              cd Seminar-Project-Code
+  
 
 
 
