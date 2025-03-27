@@ -6,6 +6,7 @@
     1. [Dependencies](#dependencies)
     2. [Models Used](#models)
     3. [Data Links](#data)
+    4. [Flow Chart](#flowchart)
 3. [Instruction to Run](#instruction)
 4. [Sample output](#sample)
 
