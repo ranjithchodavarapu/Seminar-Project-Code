@@ -29,6 +29,10 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 * **Dataset**: CIFAR-10 dataset is used for training and evaluation.
 
 ### Flowchart <a name="flowchart"></a>
+<p align="center">
+  <img src="flow chart.png" alt="Workflow: Input Data → ResNet → Randomised Smoothing → Certified Robustness
+                                                                      → PRNG-Based Attacks → Attack Success Rate" width="600">
+</p>
 
 ## Instruction to Run<a name="instruction"></a>
 ### Detailed Code Execution 
