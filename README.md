@@ -28,6 +28,8 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 ### Data <a name="data"></a>
 * **Dataset**: CIFAR-10 dataset is used for training and evaluation.
 
+### Flowchart <a name="flowchart"></a>
+
 ## Instruction to Run<a name="instruction"></a>
 ### Detailed Code Execution 
 * Set up and import the libraries
