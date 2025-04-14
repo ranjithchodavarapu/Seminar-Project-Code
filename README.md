@@ -53,7 +53,9 @@ The paper "Machine Learning Needs Better Randomness Standards: Randomised Smooth
 
 
 ## Sample Output <a name="sample"></a>
-
+<p align="center">
+  <img src="output.png" alt="Sample Output" width="600">
+</p>
 
 
 
